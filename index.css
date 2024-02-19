@@ -18,6 +18,10 @@ html{
     padding-top: 1rem;
     border-bottom: 2px solid white;
 }
+.heading{
+    font-weight: bold;
+    font-size: x-large;
+}
 #btn11{
     padding: 1rem;
     background-color: red;
