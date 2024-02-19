@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+#logo{
+    max-width: 20%;
+  
+}
+#pic{
+    width: 10%;
+}
+#navbar{
+    padding-inline: 30rem;
+    padding-top: 1rem;
+    border-bottom: 2px solid white;
+}
+#btn11{
+    padding: 1rem;
+    background-color: red;
+    color: white;
+    font-size: large;
+}
+#btn12{
+    padding: 1rem;
+    color: black;
+    font-size: large;
+}
+#bar{
+    font-size: large;
+}
+#btn1{
+    padding: 1rem;
+    margin-right: 0.5rem;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+
+}
+#btn2{
+    padding: 1rem;
+    background-color: #000000;
+    color: white;
+}
+#icon{
+    padding-left: 1rem;
+}
+.bg-color{
+    background-color:  rgb(245, 235, 220);
+    padding-bottom: 1rem;
+}
+#location{
+    margin-top: 5rem;
+    font-size: medium;
+}
+
+@media(max-width:1182px){
+    #btn2{
+        display: none;
+    }
+    #navbar{
+        display: flex;
+        justify-content: space-around !important;
+        padding-inline: 0rem;
+        row-gap: 2rem;
+    }
+}
